@@ -1,0 +1,80 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "editor.fontLigatures": true,
+  "symbols.hidesExplorerArrows": false,
+  "editor.fontFamily": "'Cascadia Code','JetBrainsMono Nerd Font', 'Consolas', 'Courier New', monospace",
+  "editor.guides.bracketPairs": true,
+  "editor.fontWeight": "normal",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 2,
+  "tabnine.experimentalAutoImports": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  //Agregado
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": true
+    }
+  },
+  //console ninja
+  "terminal.integrated.env.windows": {},
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "console-ninja.installBinToPath": false,
+  /*****Pretier*******/
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false, //cambiar al guardar
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true, //cambiado
+  "prettier.semi": false, //punto y coma? ;
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.quoteProps": "as-needed",
+  "prettier.trailingComma": "none", //coma alfinal de los objetos antes: "es5"
+  "prettier.singleAttributePerLine": false,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.vueIndentScriptAndStyle": false,
+  "prettier.proseWrap": "always",
+  "prettier.insertPragma": false,
+  "prettier.printWidth": 80,
+  "prettier.requirePragma": false,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "editor.minimap.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  /**********Terminales Instaladas en la pc**********/
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1
+}
